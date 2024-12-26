@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="img/zentucky-pavicon.png" type="image/x-icon">
     <title>Zentucky Fried Chicken</title>
 
     <!-- Add jQuery -->
@@ -112,7 +114,7 @@
     }
 </style>
 
-<body class="bg-gray-100 text-gray-800">
+<body class="text-gray-800">
 
     <!-- Header -->
     <header class="bg-white shadow-lg">
@@ -196,10 +198,11 @@
     </header>
 
     <!-- Hero Section with Background Image -->
-    <section class="relative mt-14 lg:mt-12 py-16 px-6 md:px-12 flex items-center justify-between bg-cover bg-center"
-        style="background-image: url(img/fried-drumsticks-with-ketchup-copy-space.jpg); height: 95vh;">
+    <section
+        class="relative lg:mx-16 md:mx-16 mx-4 mt-28 py-16 px-6 md:px-14 flex items-center justify-between bg-cover bg-center"
+        style="background-image: url(img/top-view-american-food-with-copy-space\ \(1\).jpg); height: 85vh; border-radius: 32px;">
         <!-- Dark Overlay -->
-        <div class="hero-overlay"></div>
+        <div class="hero-overlay" style="border-radius: 32px;"></div>
 
         <div class="container mx-auto relative flex flex-col lg:flex-row items-center md:gap-8">
             <!-- Left side - Image -->
@@ -232,13 +235,13 @@
     </section>
 
     <!-- About Section -->
-    <section id="about" class="bg-orange-400">
-        <div class="container mx-auto flex flex-col lg:flex-row items-center py-16 px-6 lg:px-16 md:px-12 gap-14">
+    <section id="about">
+        <div class="container my-8 mx-auto flex flex-col lg:flex-row items-center py-16 px-6 lg:px-16 md:px-12 gap-14">
             <!-- Left Side: About Description -->
-            <div class="lg:w-1/2 w-full text-left space-y-6 text-justify z-10">
-                <h2 class="text-3xl sm:text-4xl font-extrabold text-left text-white"><span
+            <div class="lg:w-1/2 w-full text-left space-y-6 text-justify z-10 text-black">
+                <h2 class="text-4xl lg:text-6xl pb-4 font-extrabold text-left text-orange-500"><span
                         class="text-black">Zentucky</span> Fried Chicken</h2>
-                <p class="text-lg sm:text-xl text-white">
+                <p class="text-lg sm:text-xl">
                     Zentucky Fried Chicken is where taste and quality meet in every piece of fried chicken. We are
                     committed to delivering an exceptional culinary experience with our crispy fried chicken and unique
                     spices that tantalize the taste buds. Every chicken we serve is carefully selected and prepared with
@@ -247,20 +250,33 @@
                     we
                     constantly innovate to provide the best dishes for you.
                 </p>
-                <p class="text-lg sm:text-xl text-white">
-                    At Zentucky, we offer not just great flavor, but also comfort for our customers. With friendly
-                    service
-                    and a
-                    welcoming atmosphere, we want to ensure that every visit is an unforgettable experience. We want
-                    every
-                    bite of our fried chicken to make you feel right at home.
-                </p>
-                <p class="text-lg sm:text-xl text-white">
+                <p class="text-lg sm:text-xl">
                     So, if you’re looking for fried chicken with mouthwatering flavors and unbeatable quality, Zentucky
                     Fried Chicken is the right choice. Enjoy the best fried chicken only at Zentucky – where taste and
                     happiness
                     meet!
                 </p>
+                <div class="lg:pt-4">
+                    <h4 class="text-3xl font-bold">Follow us</h4>
+                    <div class="flex justify-start gap-4 mt-4">
+                        <!-- Facebook Icon -->
+                        <a href="https://facebook.com" target="_blank" class="text-blue-500 hover:text-blue-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="currentColor"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M22.675 0h-21.35C.599 0 0 .6 0 1.337v21.326C0 23.4.6 24 1.337 24H12.82v-9.29H9.692v-3.632h3.127V8.412c0-3.1 1.894-4.79 4.659-4.79 1.325 0 2.464.1 2.797.143v3.241l-1.919.001c-1.504 0-1.794.714-1.794 1.763v2.311h3.587l-.467 3.631h-3.12V24h6.112c.737 0 1.337-.6 1.337-1.337V1.337C24 .6 23.4 0 22.675 0z" />
+                            </svg>
+                        </a>
+                        <!-- Instagram Icon -->
+                        <a href="https://instagram.com" target="_blank" class="text-pink-500 hover:text-pink-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="currentColor"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M12 0c3.3 0 3.7.012 5 .072 1.3.06 2.2.27 3 .582a5.9 5.9 0 0 1 2.072 1.359A5.9 5.9 0 0 1 23.348 4c.312.799.522 1.699.582 3C24 8.3 24 8.7 24 12c0 3.3-.012 3.7-.072 5-.06 1.3-.27 2.2-.582 3a5.9 5.9 0 0 1-1.359 2.072A5.9 5.9 0 0 1 20 23.348c-.799.312-1.699.522-3 .582-1.3.06-1.7.072-5 .072s-3.7-.012-5-.072c-1.3-.06-2.2-.27-3-.582a5.9 5.9 0 0 1-2.072-1.359A5.9 5.9 0 0 1 .652 20C.34 19.201.13 18.301.072 17c-.06-1.3-.072-1.7-.072-5s.012-3.7.072-5C.13 5.699.34 4.799.652 4A5.9 5.9 0 0 1 2.011 2.072 5.9 5.9 0 0 1 4 1.652C4.799 1.34 5.699 1.13 7 1.072 8.3.012 8.7 0 12 0zm0 2.16C8.728 2.16 8.387 2.173 7.15 2.23c-1.088.05-1.698.234-2.11.395A3.86 3.86 0 0 0 3.5 3.298 3.86 3.86 0 0 0 2.624 4.5c-.161.412-.344 1.022-.395 2.11C2.173 8.387 2.16 8.728 2.16 12s.013 3.613.07 5c.05 1.088.234 1.698.395 2.11.231.413.52.702.933.934.412.161 1.022.344 2.11.395 1.387.057 1.728.07 5 .07s3.613-.013 5-.07c1.088-.05 1.698-.234 2.11-.395a3.86 3.86 0 0 0 .933-.934c.161-.412.344-1.022.395-2.11.057-1.387.07-1.728.07-5s-.013-3.613-.07-5c-.05-1.088-.234-1.698-.395-2.11a3.86 3.86 0 0 0-.933-.934c-.412-.161-1.022-.344-2.11-.395-1.387-.057-1.728-.07-5-.07zM12 5.838a6.162 6.162 0 1 1 0 12.324 6.162 6.162 0 0 1 0-12.324zm0 2.16a4.002 4.002 0 1 0 0 8.004 4.002 4.002 0 0 0 0-8.004zM18.406 4.81a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
             </div>
 
             <!-- Right Side: Carousel with Fried Chicken Images -->
@@ -287,8 +303,13 @@
     </section>
 
     <!-- Download App -->
-    <section id="download" class="py-16 px-6 md:px-12 lg:px-16 bg-gray-600">
-        <div class="container mx-auto flex flex-col lg:flex-row items-center gap-14">
+    <section id="download"
+        class="relative lg:mx-16 md:mx-16 mx-4 py-16 px-6 md:px-14 flex items-center justify-between bg-cover bg-center"
+        style="background-image: url(img/top-view-chicken-with-copy-space.jpg); border-radius: 32px;">
+        <!-- Dark Overlay -->
+        <div class="hero-overlay" style="border-radius: 32px;"></div>
+
+        <div class="container mx-auto flex flex-col lg:flex-row items-center gap-14 z-20">
             <!-- Image Section -->
             <div class="lg:w-1/2 w-3/4 mx-auto lg:mx-0">
                 <img src="img/mockup-app.png" alt="App Mockup" class="w-full max-w-sm lg:max-w-md mx-auto">
@@ -317,8 +338,13 @@
     </section>
 
     <!-- Section Menu -->
-    <section id="menu" class="py-10 bg-orange-400 text-grey-800">
-        <div class="container mx-auto px-4 md-6">
+    <section id="menu"
+        class="relative lg:mx-16 md:mx-16 mx-4 py-16 my-12 px-6 md:px-14 flex items-center justify-between bg-cover bg-center"
+        style="background-image: url(img/fried-drumsticks-with-ketchup-copy-space.jpg); border-radius: 32px;">
+        <!-- Dark Overlay -->
+        <div class="hero-overlay" style="border-radius: 32px;"></div>
+
+        <div class="container mx-auto px-4 md-6 z-20 text-white">
             <!-- Section Title -->
             <div class="text-center mb-6">
                 <h2 class="text-4xl md:5xl lg:6-xl font-bold">Our Menu</h2>
@@ -330,15 +356,15 @@
             <!-- Tabs Navigation -->
             <div class="flex justify-center space-x-4">
                 <button
-                    class="tab-btn py-2 px-4 text-lg font-semibold rounded-lg border-1 hover:bg-white bg-white active"
+                    class="tab-btn py-2 px-4 text-lg font-semibold rounded-lg border-1 hover:bg-orange-500 bg-orange-500 active"
                     data-target="chicken">
                     Chicken
                 </button>
-                <button class="tab-btn py-2 px-4 text-lg font-semibold rounded-lg border-1 hover:bg-white"
+                <button class="tab-btn py-2 px-4 text-lg font-semibold rounded-lg border-1 hover:bg-orange-500"
                     data-target="sides">
                     Sides
                 </button>
-                <button class="tab-btn py-2 px-4 text-lg font-semibold rounded-lg border-1 hover:bg-white"
+                <button class="tab-btn py-2 px-4 text-lg font-semibold rounded-lg border-1 hover:bg-orange-500"
                     data-target="drinks">
                     Drinks
                 </button>
@@ -349,66 +375,136 @@
                 <!-- Chicken Tab -->
                 <div class="tab-pane grid gap-6 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 active" id="chicken">
                     <!-- Menu Item -->
-                    <div class="bg-gray-900 rounded-lg overflow-hidden shadow-lg">
-                        <img src="img/menu/grilled-chicken.jpg" alt="Fried Chicken" class="w-full h-48 object-cover">
-                        <div class="p-4">
-                            <div class="flex justify-between items-center mb-2">
-                                <h5 class="text-lg font-bold text-white">Fried Chicken</h5>
-                                <span class="text-lg font-semibold text-white">$33.00</span>
-                            </div>
-                            <p class="text-sm text-gray-400">Crispy and juicy fried chicken, perfect for any meal!</p>
+                    <div class="relative bg-white rounded-lg overflow-hidden shadow-lg p-6">
+                        <img src="img/menu/fried-chicken.jpg" alt="Fried Chicken"
+                            class="w-full h-48 rounded-lg object-cover">
+                        <button
+                            class="like-button absolute top-8 right-8 p-1 rounded-full bg-white hover:bg-white hover:opacity-100 transition"
+                            onclick="toggleLike(this)">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 24" fill="none"
+                                stroke="currentColor" stroke-width="1.5" class="w-6 h-6 text-red-500">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M6.318 6.318a4.5 4.5 0 016.364 0l.318.318.318-.318a4.5 4.5 0 116.364 6.364l-6.682 6.682a.75.75 0 01-1.06 0L6.318 12.682a4.5 4.5 0 010-6.364z" />
+                            </svg>
+                        </button>
+                        <div class="flex justify-between items-center mt-4 mb-2">
+                            <h5 class="text-lg font-bold text-black">Fried Chicken</h5>
+                        </div>
+                        <p class="text-sm text-gray-500">Crispy and juicy fried chicken, perfect for any meal!</p>
+                        <div class="flex items-center justify-between mt-3">
+                            <p class="text-2xl font-semibold text-orange-500"> $5.00 </p>
+                            <button
+                                class="bg-orange-500 text-white py-2 px-4 rounded-md hover:bg-orange-500 transition text-lg">Order</button>
                         </div>
                     </div>
-                    <div class="bg-gray-900 rounded-lg overflow-hidden shadow-lg">
-                        <img src="img/menu/fried-chicken.jpg" alt="Fried Chicken" class="w-full h-48 object-cover">
-                        <div class="p-4">
-                            <div class="flex justify-between items-center mb-2">
-                                <h5 class="text-lg font-bold text-white">Fried Chicken</h5>
-                                <span class="text-lg font-semibold text-white">$33.00</span>
-                            </div>
-                            <p class="text-sm text-gray-400">Crispy and juicy fried chicken, perfect for any meal!</p>
+                    <div class="relative bg-white rounded-lg overflow-hidden shadow-lg p-6">
+                        <img src="img/menu/fried-chicken.jpg" alt="Fried Chicken"
+                            class="w-full h-48 rounded-lg object-cover">
+                        <button
+                            class="like-button absolute top-8 right-8 p-1 rounded-full bg-white hover:bg-white hover:opacity-100 transition"
+                            onclick="toggleLike(this)">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 24" fill="none"
+                                stroke="currentColor" stroke-width="1.5" class="w-6 h-6 text-red-500">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M6.318 6.318a4.5 4.5 0 016.364 0l.318.318.318-.318a4.5 4.5 0 116.364 6.364l-6.682 6.682a.75.75 0 01-1.06 0L6.318 12.682a4.5 4.5 0 010-6.364z" />
+                            </svg>
+                        </button>
+                        <div class="flex justify-between items-center mt-4 mb-2">
+                            <h5 class="text-lg font-bold text-black">Fried Chicken</h5>
+                        </div>
+                        <p class="text-sm text-gray-500">Crispy and juicy fried chicken, perfect for any meal!</p>
+                        <div class="flex items-center justify-between mt-3">
+                            <p class="text-2xl font-semibold text-orange-500"> $5.00 </p>
+                            <button
+                                class="bg-orange-500 text-white py-2 px-4 rounded-md hover:bg-orange-500 transition text-lg">Order</button>
                         </div>
                     </div>
-                    <div class="bg-gray-900 rounded-lg overflow-hidden shadow-lg">
-                        <img src="img/menu/delicious-meal-with-eggs-mushrooms.jpg" alt="Fried Chicken"
-                            class="w-full h-48 object-cover">
-                        <div class="p-4">
-                            <div class="flex justify-between items-center mb-2">
-                                <h5 class="text-lg font-bold text-white">Fried Chicken</h5>
-                                <span class="text-lg font-semibold text-white">$33.00</span>
-                            </div>
-                            <p class="text-sm text-gray-400">Crispy and juicy fried chicken, perfect for any meal!</p>
+                    <div class="relative bg-white rounded-lg overflow-hidden shadow-lg p-6">
+                        <img src="img/menu/fried-chicken.jpg" alt="Fried Chicken"
+                            class="w-full h-48 rounded-lg object-cover">
+                        <button
+                            class="like-button absolute top-8 right-8 p-1 rounded-full bg-white hover:bg-white hover:opacity-100 transition"
+                            onclick="toggleLike(this)">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 24" fill="none"
+                                stroke="currentColor" stroke-width="1.5" class="w-6 h-6 text-red-500">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M6.318 6.318a4.5 4.5 0 016.364 0l.318.318.318-.318a4.5 4.5 0 116.364 6.364l-6.682 6.682a.75.75 0 01-1.06 0L6.318 12.682a4.5 4.5 0 010-6.364z" />
+                            </svg>
+                        </button>
+                        <div class="flex justify-between items-center mt-4 mb-2">
+                            <h5 class="text-lg font-bold text-black">Fried Chicken</h5>
+                        </div>
+                        <p class="text-sm text-gray-500">Crispy and juicy fried chicken, perfect for any meal!</p>
+                        <div class="flex items-center justify-between mt-3">
+                            <p class="text-2xl font-semibold text-orange-500"> $5.00 </p>
+                            <button
+                                class="bg-orange-500 text-white py-2 px-4 rounded-md hover:bg-orange-500 transition text-lg">Order</button>
                         </div>
                     </div>
-                    <div class="bg-gray-900 rounded-lg overflow-hidden shadow-lg">
-                        <img src="img/menu/grilled-chicken.jpg" alt="Fried Chicken" class="w-full h-48 object-cover">
-                        <div class="p-4">
-                            <div class="flex justify-between items-center mb-2">
-                                <h5 class="text-lg font-bold text-white">Fried Chicken</h5>
-                                <span class="text-lg font-semibold text-white">$33.00</span>
-                            </div>
-                            <p class="text-sm text-gray-400">Crispy and juicy fried chicken, perfect for any meal!</p>
+                    <div class="relative bg-white rounded-lg overflow-hidden shadow-lg p-6">
+                        <img src="img/menu/fried-chicken.jpg" alt="Fried Chicken"
+                            class="w-full h-48 rounded-lg object-cover">
+                        <button
+                            class="like-button absolute top-8 right-8 p-1 rounded-full bg-white hover:bg-white hover:opacity-100 transition"
+                            onclick="toggleLike(this)">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 24" fill="none"
+                                stroke="currentColor" stroke-width="1.5" class="w-6 h-6 text-red-500">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M6.318 6.318a4.5 4.5 0 016.364 0l.318.318.318-.318a4.5 4.5 0 116.364 6.364l-6.682 6.682a.75.75 0 01-1.06 0L6.318 12.682a4.5 4.5 0 010-6.364z" />
+                            </svg>
+                        </button>
+                        <div class="flex justify-between items-center mt-4 mb-2">
+                            <h5 class="text-lg font-bold text-black">Fried Chicken</h5>
+                        </div>
+                        <p class="text-sm text-gray-500">Crispy and juicy fried chicken, perfect for any meal!</p>
+                        <div class="flex items-center justify-between mt-3">
+                            <p class="text-2xl font-semibold text-orange-500"> $5.00 </p>
+                            <button
+                                class="bg-orange-500 text-white py-2 px-4 rounded-md hover:bg-orange-500 transition text-lg">Order</button>
                         </div>
                     </div>
-                    <div class="bg-gray-900 rounded-lg overflow-hidden shadow-lg">
-                        <img src="img/menu/fried-chicken.jpg" alt="Fried Chicken" class="w-full h-48 object-cover">
-                        <div class="p-4">
-                            <div class="flex justify-between items-center mb-2">
-                                <h5 class="text-lg font-bold text-white">Fried Chicken</h5>
-                                <span class="text-lg font-semibold text-white">$33.00</span>
-                            </div>
-                            <p class="text-sm text-gray-400">Crispy and juicy fried chicken, perfect for any meal!</p>
+                    <div class="relative bg-white rounded-lg overflow-hidden shadow-lg p-6">
+                        <img src="img/menu/fried-chicken.jpg" alt="Fried Chicken"
+                            class="w-full h-48 rounded-lg object-cover">
+                        <button
+                            class="like-button absolute top-8 right-8 p-1 rounded-full bg-white hover:bg-white hover:opacity-100 transition"
+                            onclick="toggleLike(this)">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 24" fill="none"
+                                stroke="currentColor" stroke-width="1.5" class="w-6 h-6 text-red-500">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M6.318 6.318a4.5 4.5 0 016.364 0l.318.318.318-.318a4.5 4.5 0 116.364 6.364l-6.682 6.682a.75.75 0 01-1.06 0L6.318 12.682a4.5 4.5 0 010-6.364z" />
+                            </svg>
+                        </button>
+                        <div class="flex justify-between items-center mt-4 mb-2">
+                            <h5 class="text-lg font-bold text-black">Fried Chicken</h5>
+                        </div>
+                        <p class="text-sm text-gray-500">Crispy and juicy fried chicken, perfect for any meal!</p>
+                        <div class="flex items-center justify-between mt-3">
+                            <p class="text-2xl font-semibold text-orange-500"> $5.00 </p>
+                            <button
+                                class="bg-orange-500 text-white py-2 px-4 rounded-md hover:bg-orange-500 transition text-lg">Order</button>
                         </div>
                     </div>
-                    <div class="bg-gray-900 rounded-lg overflow-hidden shadow-lg">
-                        <img src="img/menu/delicious-meal-with-eggs-mushrooms.jpg" alt="Fried Chicken"
-                            class="w-full h-48 object-cover">
-                        <div class="p-4">
-                            <div class="flex justify-between items-center mb-2">
-                                <h5 class="text-lg font-bold text-white">Fried Chicken</h5>
-                                <span class="text-lg font-semibold text-white">$33.00</span>
-                            </div>
-                            <p class="text-sm text-gray-400">Crispy and juicy fried chicken, perfect for any meal!</p>
+                    <div class="relative bg-white rounded-lg overflow-hidden shadow-lg p-6">
+                        <img src="img/menu/fried-chicken.jpg" alt="Fried Chicken"
+                            class="w-full h-48 rounded-lg object-cover">
+                        <button
+                            class="like-button absolute top-8 right-8 p-1 rounded-full bg-white hover:bg-white hover:opacity-100 transition"
+                            onclick="toggleLike(this)">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 24" fill="none"
+                                stroke="currentColor" stroke-width="1.5" class="w-6 h-6 text-red-500">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M6.318 6.318a4.5 4.5 0 016.364 0l.318.318.318-.318a4.5 4.5 0 116.364 6.364l-6.682 6.682a.75.75 0 01-1.06 0L6.318 12.682a4.5 4.5 0 010-6.364z" />
+                            </svg>
+                        </button>
+                        <div class="flex justify-between items-center mt-4 mb-2">
+                            <h5 class="text-lg font-bold text-black">Fried Chicken</h5>
+                        </div>
+                        <p class="text-sm text-gray-500">Crispy and juicy fried chicken, perfect for any meal!</p>
+                        <div class="flex items-center justify-between mt-3">
+                            <p class="text-2xl font-semibold text-orange-500"> $5.00 </p>
+                            <button
+                                class="bg-orange-500 text-white py-2 px-4 rounded-md hover:bg-orange-500 transition text-lg">Order</button>
                         </div>
                     </div>
                     <!-- Repeat for other menu items -->
@@ -417,64 +513,136 @@
                 <!-- Sides Tab -->
                 <div class="tab-pane grid gap-6 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 hidden" id="sides">
                     <!-- Menu Item -->
-                    <div class="bg-gray-900 rounded-lg overflow-hidden shadow-lg">
-                        <img src="img/menu/spicy-chicken.jpg" alt="French Fries" class="w-full h-48 object-cover">
-                        <div class="p-4">
-                            <div class="flex justify-between items-center mb-2">
-                                <h5 class="text-lg font-bold">French Fries</h5>
-                                <span class="text-lg font-semibold text-white">$5.00</span>
-                            </div>
-                            <p class="text-sm text-gray-400">Golden and crispy french fries, perfect as a side!</p>
+                    <div class="relative bg-white rounded-lg overflow-hidden shadow-lg p-6">
+                        <img src="img/menu/delicious-meal-with-eggs-mushrooms.jpg" alt="Fried Chicken"
+                            class="w-full h-48 rounded-lg object-cover">
+                        <button
+                            class="like-button absolute top-8 right-8 p-1 rounded-full bg-white hover:bg-white hover:opacity-100 transition"
+                            onclick="toggleLike(this)">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 24" fill="none"
+                                stroke="currentColor" stroke-width="1.5" class="w-6 h-6 text-red-500">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M6.318 6.318a4.5 4.5 0 016.364 0l.318.318.318-.318a4.5 4.5 0 116.364 6.364l-6.682 6.682a.75.75 0 01-1.06 0L6.318 12.682a4.5 4.5 0 010-6.364z" />
+                            </svg>
+                        </button>
+                        <div class="flex justify-between items-center mt-4 mb-2">
+                            <h5 class="text-lg font-bold text-black">Noodles Mushrooms</h5>
+                        </div>
+                        <p class="text-sm text-gray-500">Crispy and juicy fried chicken, perfect for any meal!</p>
+                        <div class="flex items-center justify-between mt-3">
+                            <p class="text-2xl font-semibold text-orange-500"> $5.00 </p>
+                            <button
+                                class="bg-orange-500 text-white py-2 px-4 rounded-md hover:bg-orange-500 transition text-lg">Order</button>
                         </div>
                     </div>
-                    <div class="bg-gray-900 rounded-lg overflow-hidden shadow-lg">
-                        <img src="img/menu/spicy-chicken.jpg" alt="French Fries" class="w-full h-48 object-cover">
-                        <div class="p-4">
-                            <div class="flex justify-between items-center mb-2">
-                                <h5 class="text-lg font-bold">French Fries</h5>
-                                <span class="text-lg font-semibold text-white">$5.00</span>
-                            </div>
-                            <p class="text-sm text-gray-400">Golden and crispy french fries, perfect as a side!</p>
+                    <div class="relative bg-white rounded-lg overflow-hidden shadow-lg p-6">
+                        <img src="img/menu/delicious-meal-with-eggs-mushrooms.jpg" alt="Fried Chicken"
+                            class="w-full h-48 rounded-lg object-cover">
+                        <button
+                            class="like-button absolute top-8 right-8 p-1 rounded-full bg-white hover:bg-white hover:opacity-100 transition"
+                            onclick="toggleLike(this)">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 24" fill="none"
+                                stroke="currentColor" stroke-width="1.5" class="w-6 h-6 text-red-500">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M6.318 6.318a4.5 4.5 0 016.364 0l.318.318.318-.318a4.5 4.5 0 116.364 6.364l-6.682 6.682a.75.75 0 01-1.06 0L6.318 12.682a4.5 4.5 0 010-6.364z" />
+                            </svg>
+                        </button>
+                        <div class="flex justify-between items-center mt-4 mb-2">
+                            <h5 class="text-lg font-bold text-black">Noodles Mushrooms</h5>
+                        </div>
+                        <p class="text-sm text-gray-500">Crispy and juicy fried chicken, perfect for any meal!</p>
+                        <div class="flex items-center justify-between mt-3">
+                            <p class="text-2xl font-semibold text-orange-500"> $5.00 </p>
+                            <button
+                                class="bg-orange-500 text-white py-2 px-4 rounded-md hover:bg-orange-500 transition text-lg">Order</button>
                         </div>
                     </div>
-                    <div class="bg-gray-900 rounded-lg overflow-hidden shadow-lg">
-                        <img src="img/menu/spicy-chicken.jpg" alt="French Fries" class="w-full h-48 object-cover">
-                        <div class="p-4">
-                            <div class="flex justify-between items-center mb-2">
-                                <h5 class="text-lg font-bold">French Fries</h5>
-                                <span class="text-lg font-semibold text-white">$5.00</span>
-                            </div>
-                            <p class="text-sm text-gray-400">Golden and crispy french fries, perfect as a side!</p>
+                    <div class="relative bg-white rounded-lg overflow-hidden shadow-lg p-6">
+                        <img src="img/menu/delicious-meal-with-eggs-mushrooms.jpg" alt="Fried Chicken"
+                            class="w-full h-48 rounded-lg object-cover">
+                        <button
+                            class="like-button absolute top-8 right-8 p-1 rounded-full bg-white hover:bg-white hover:opacity-100 transition"
+                            onclick="toggleLike(this)">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 24" fill="none"
+                                stroke="currentColor" stroke-width="1.5" class="w-6 h-6 text-red-500">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M6.318 6.318a4.5 4.5 0 016.364 0l.318.318.318-.318a4.5 4.5 0 116.364 6.364l-6.682 6.682a.75.75 0 01-1.06 0L6.318 12.682a4.5 4.5 0 010-6.364z" />
+                            </svg>
+                        </button>
+                        <div class="flex justify-between items-center mt-4 mb-2">
+                            <h5 class="text-lg font-bold text-black">Noodles Mushrooms</h5>
+                        </div>
+                        <p class="text-sm text-gray-500">Crispy and juicy fried chicken, perfect for any meal!</p>
+                        <div class="flex items-center justify-between mt-3">
+                            <p class="text-2xl font-semibold text-orange-500"> $5.00 </p>
+                            <button
+                                class="bg-orange-500 text-white py-2 px-4 rounded-md hover:bg-orange-500 transition text-lg">Order</button>
                         </div>
                     </div>
-                    <div class="bg-gray-900 rounded-lg overflow-hidden shadow-lg">
-                        <img src="img/menu/spicy-chicken.jpg" alt="French Fries" class="w-full h-48 object-cover">
-                        <div class="p-4">
-                            <div class="flex justify-between items-center mb-2">
-                                <h5 class="text-lg font-bold">French Fries</h5>
-                                <span class="text-lg font-semibold text-white">$5.00</span>
-                            </div>
-                            <p class="text-sm text-gray-400">Golden and crispy french fries, perfect as a side!</p>
+                    <div class="relative bg-white rounded-lg overflow-hidden shadow-lg p-6">
+                        <img src="img/menu/delicious-meal-with-eggs-mushrooms.jpg" alt="Fried Chicken"
+                            class="w-full h-48 rounded-lg object-cover">
+                        <button
+                            class="like-button absolute top-8 right-8 p-1 rounded-full bg-white hover:bg-white hover:opacity-100 transition"
+                            onclick="toggleLike(this)">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 24" fill="none"
+                                stroke="currentColor" stroke-width="1.5" class="w-6 h-6 text-red-500">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M6.318 6.318a4.5 4.5 0 016.364 0l.318.318.318-.318a4.5 4.5 0 116.364 6.364l-6.682 6.682a.75.75 0 01-1.06 0L6.318 12.682a4.5 4.5 0 010-6.364z" />
+                            </svg>
+                        </button>
+                        <div class="flex justify-between items-center mt-4 mb-2">
+                            <h5 class="text-lg font-bold text-black">Noodles Mushrooms</h5>
+                        </div>
+                        <p class="text-sm text-gray-500">Crispy and juicy fried chicken, perfect for any meal!</p>
+                        <div class="flex items-center justify-between mt-3">
+                            <p class="text-2xl font-semibold text-orange-500"> $5.00 </p>
+                            <button
+                                class="bg-orange-500 text-white py-2 px-4 rounded-md hover:bg-orange-500 transition text-lg">Order</button>
                         </div>
                     </div>
-                    <div class="bg-gray-900 rounded-lg overflow-hidden shadow-lg">
-                        <img src="img/menu/spicy-chicken.jpg" alt="French Fries" class="w-full h-48 object-cover">
-                        <div class="p-4">
-                            <div class="flex justify-between items-center mb-2">
-                                <h5 class="text-lg font-bold">French Fries</h5>
-                                <span class="text-lg font-semibold text-white">$5.00</span>
-                            </div>
-                            <p class="text-sm text-gray-400">Golden and crispy french fries, perfect as a side!</p>
+                    <div class="relative bg-white rounded-lg overflow-hidden shadow-lg p-6">
+                        <img src="img/menu/delicious-meal-with-eggs-mushrooms.jpg" alt="Fried Chicken"
+                            class="w-full h-48 rounded-lg object-cover">
+                        <button
+                            class="like-button absolute top-8 right-8 p-1 rounded-full bg-white hover:bg-white hover:opacity-100 transition"
+                            onclick="toggleLike(this)">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 24" fill="none"
+                                stroke="currentColor" stroke-width="1.5" class="w-6 h-6 text-red-500">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M6.318 6.318a4.5 4.5 0 016.364 0l.318.318.318-.318a4.5 4.5 0 116.364 6.364l-6.682 6.682a.75.75 0 01-1.06 0L6.318 12.682a4.5 4.5 0 010-6.364z" />
+                            </svg>
+                        </button>
+                        <div class="flex justify-between items-center mt-4 mb-2">
+                            <h5 class="text-lg font-bold text-black">Noodles Mushrooms</h5>
+                        </div>
+                        <p class="text-sm text-gray-500">Crispy and juicy fried chicken, perfect for any meal!</p>
+                        <div class="flex items-center justify-between mt-3">
+                            <p class="text-2xl font-semibold text-orange-500"> $5.00 </p>
+                            <button
+                                class="bg-orange-500 text-white py-2 px-4 rounded-md hover:bg-orange-500 transition text-lg">Order</button>
                         </div>
                     </div>
-                    <div class="bg-gray-900 rounded-lg overflow-hidden shadow-lg">
-                        <img src="img/menu/spicy-chicken.jpg" alt="French Fries" class="w-full h-48 object-cover">
-                        <div class="p-4">
-                            <div class="flex justify-between items-center mb-2">
-                                <h5 class="text-lg font-bold">French Fries</h5>
-                                <span class="text-lg font-semibold text-white">$5.00</span>
-                            </div>
-                            <p class="text-sm text-gray-400">Golden and crispy french fries, perfect as a side!</p>
+                    <div class="relative bg-white rounded-lg overflow-hidden shadow-lg p-6">
+                        <img src="img/menu/delicious-meal-with-eggs-mushrooms.jpg" alt="Fried Chicken"
+                            class="w-full h-48 rounded-lg object-cover">
+                        <button
+                            class="like-button absolute top-8 right-8 p-1 rounded-full bg-white hover:bg-white hover:opacity-100 transition"
+                            onclick="toggleLike(this)">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 24" fill="none"
+                                stroke="currentColor" stroke-width="1.5" class="w-6 h-6 text-red-500">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M6.318 6.318a4.5 4.5 0 016.364 0l.318.318.318-.318a4.5 4.5 0 116.364 6.364l-6.682 6.682a.75.75 0 01-1.06 0L6.318 12.682a4.5 4.5 0 010-6.364z" />
+                            </svg>
+                        </button>
+                        <div class="flex justify-between items-center mt-4 mb-2">
+                            <h5 class="text-lg font-bold text-black">Noodles Mushrooms</h5>
+                        </div>
+                        <p class="text-sm text-gray-500">Crispy and juicy fried chicken, perfect for any meal!</p>
+                        <div class="flex items-center justify-between mt-3">
+                            <p class="text-2xl font-semibold text-orange-500"> $5.00 </p>
+                            <button
+                                class="bg-orange-500 text-white py-2 px-4 rounded-md hover:bg-orange-500 transition text-lg">Order</button>
                         </div>
                     </div>
                     <!-- Repeat for other menu items -->
@@ -483,14 +651,136 @@
                 <!-- Drinks Tab -->
                 <div class="tab-pane grid gap-6 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 hidden" id="drinks">
                     <!-- Menu Item -->
-                    <div class="bg-gray-900 rounded-lg overflow-hidden shadow-lg">
-                        <img src="img/menu/hot-latte.jpg" alt="Hot Latte" class="w-full h-48 object-cover">
-                        <div class="p-4">
-                            <div class="flex justify-between items-center mb-2">
-                                <h5 class="text-lg font-bold">Hot Latte</h5>
-                                <span class="text-lg font-semibold text-white">$8.00</span>
-                            </div>
-                            <p class="text-sm text-gray-400">A comforting hot latte to brighten your day.</p>
+                    <div class="relative bg-white rounded-lg overflow-hidden shadow-lg p-6">
+                        <img src="img/menu/orange-juice.jpg" alt="Fried Chicken"
+                            class="w-full h-48 rounded-lg object-cover">
+                        <button
+                            class="like-button absolute top-8 right-8 p-1 rounded-full bg-white hover:bg-white hover:opacity-100 transition"
+                            onclick="toggleLike(this)">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 24" fill="none"
+                                stroke="currentColor" stroke-width="1.5" class="w-6 h-6 text-red-500">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M6.318 6.318a4.5 4.5 0 016.364 0l.318.318.318-.318a4.5 4.5 0 116.364 6.364l-6.682 6.682a.75.75 0 01-1.06 0L6.318 12.682a4.5 4.5 0 010-6.364z" />
+                            </svg>
+                        </button>
+                        <div class="flex justify-between items-center mt-4 mb-2">
+                            <h5 class="text-lg font-bold text-black">Orange Juice</h5>
+                        </div>
+                        <p class="text-sm text-gray-500">Crispy and juicy fried chicken, perfect for any meal!</p>
+                        <div class="flex items-center justify-between mt-3">
+                            <p class="text-2xl font-semibold text-orange-500"> $5.00 </p>
+                            <button
+                                class="bg-orange-500 text-white py-2 px-4 rounded-md hover:bg-orange-500 transition text-lg">Order</button>
+                        </div>
+                    </div>
+                    <div class="relative bg-white rounded-lg overflow-hidden shadow-lg p-6">
+                        <img src="img/menu/orange-juice.jpg" alt="Fried Chicken"
+                            class="w-full h-48 rounded-lg object-cover">
+                        <button
+                            class="like-button absolute top-8 right-8 p-1 rounded-full bg-white hover:bg-white hover:opacity-100 transition"
+                            onclick="toggleLike(this)">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 24" fill="none"
+                                stroke="currentColor" stroke-width="1.5" class="w-6 h-6 text-red-500">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M6.318 6.318a4.5 4.5 0 016.364 0l.318.318.318-.318a4.5 4.5 0 116.364 6.364l-6.682 6.682a.75.75 0 01-1.06 0L6.318 12.682a4.5 4.5 0 010-6.364z" />
+                            </svg>
+                        </button>
+                        <div class="flex justify-between items-center mt-4 mb-2">
+                            <h5 class="text-lg font-bold text-black">Orange Juice</h5>
+                        </div>
+                        <p class="text-sm text-gray-500">Crispy and juicy fried chicken, perfect for any meal!</p>
+                        <div class="flex items-center justify-between mt-3">
+                            <p class="text-2xl font-semibold text-orange-500"> $5.00 </p>
+                            <button
+                                class="bg-orange-500 text-white py-2 px-4 rounded-md hover:bg-orange-500 transition text-lg">Order</button>
+                        </div>
+                    </div>
+                    <div class="relative bg-white rounded-lg overflow-hidden shadow-lg p-6">
+                        <img src="img/menu/orange-juice.jpg" alt="Fried Chicken"
+                            class="w-full h-48 rounded-lg object-cover">
+                        <button
+                            class="like-button absolute top-8 right-8 p-1 rounded-full bg-white hover:bg-white hover:opacity-100 transition"
+                            onclick="toggleLike(this)">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 24" fill="none"
+                                stroke="currentColor" stroke-width="1.5" class="w-6 h-6 text-red-500">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M6.318 6.318a4.5 4.5 0 016.364 0l.318.318.318-.318a4.5 4.5 0 116.364 6.364l-6.682 6.682a.75.75 0 01-1.06 0L6.318 12.682a4.5 4.5 0 010-6.364z" />
+                            </svg>
+                        </button>
+                        <div class="flex justify-between items-center mt-4 mb-2">
+                            <h5 class="text-lg font-bold text-black">Orange Juice</h5>
+                        </div>
+                        <p class="text-sm text-gray-500">Crispy and juicy fried chicken, perfect for any meal!</p>
+                        <div class="flex items-center justify-between mt-3">
+                            <p class="text-2xl font-semibold text-orange-500"> $5.00 </p>
+                            <button
+                                class="bg-orange-500 text-white py-2 px-4 rounded-md hover:bg-orange-500 transition text-lg">Order</button>
+                        </div>
+                    </div>
+                    <div class="relative bg-white rounded-lg overflow-hidden shadow-lg p-6">
+                        <img src="img/menu/orange-juice.jpg" alt="Fried Chicken"
+                            class="w-full h-48 rounded-lg object-cover">
+                        <button
+                            class="like-button absolute top-8 right-8 p-1 rounded-full bg-white hover:bg-white hover:opacity-100 transition"
+                            onclick="toggleLike(this)">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 24" fill="none"
+                                stroke="currentColor" stroke-width="1.5" class="w-6 h-6 text-red-500">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M6.318 6.318a4.5 4.5 0 016.364 0l.318.318.318-.318a4.5 4.5 0 116.364 6.364l-6.682 6.682a.75.75 0 01-1.06 0L6.318 12.682a4.5 4.5 0 010-6.364z" />
+                            </svg>
+                        </button>
+                        <div class="flex justify-between items-center mt-4 mb-2">
+                            <h5 class="text-lg font-bold text-black">Orange Juice</h5>
+                        </div>
+                        <p class="text-sm text-gray-500">Crispy and juicy fried chicken, perfect for any meal!</p>
+                        <div class="flex items-center justify-between mt-3">
+                            <p class="text-2xl font-semibold text-orange-500"> $5.00 </p>
+                            <button
+                                class="bg-orange-500 text-white py-2 px-4 rounded-md hover:bg-orange-500 transition text-lg">Order</button>
+                        </div>
+                    </div>
+                    <div class="relative bg-white rounded-lg overflow-hidden shadow-lg p-6">
+                        <img src="img/menu/orange-juice.jpg" alt="Fried Chicken"
+                            class="w-full h-48 rounded-lg object-cover">
+                        <button
+                            class="like-button absolute top-8 right-8 p-1 rounded-full bg-white hover:bg-white hover:opacity-100 transition"
+                            onclick="toggleLike(this)">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 24" fill="none"
+                                stroke="currentColor" stroke-width="1.5" class="w-6 h-6 text-red-500">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M6.318 6.318a4.5 4.5 0 016.364 0l.318.318.318-.318a4.5 4.5 0 116.364 6.364l-6.682 6.682a.75.75 0 01-1.06 0L6.318 12.682a4.5 4.5 0 010-6.364z" />
+                            </svg>
+                        </button>
+                        <div class="flex justify-between items-center mt-4 mb-2">
+                            <h5 class="text-lg font-bold text-black">Orange Juice</h5>
+                        </div>
+                        <p class="text-sm text-gray-500">Crispy and juicy fried chicken, perfect for any meal!</p>
+                        <div class="flex items-center justify-between mt-3">
+                            <p class="text-2xl font-semibold text-orange-500"> $5.00 </p>
+                            <button
+                                class="bg-orange-500 text-white py-2 px-4 rounded-md hover:bg-orange-500 transition text-lg">Order</button>
+                        </div>
+                    </div>
+                    <div class="relative bg-white rounded-lg overflow-hidden shadow-lg p-6">
+                        <img src="img/menu/orange-juice.jpg" alt="Fried Chicken"
+                            class="w-full h-48 rounded-lg object-cover">
+                        <button
+                            class="like-button absolute top-8 right-8 p-1 rounded-full bg-white hover:bg-white hover:opacity-100 transition"
+                            onclick="toggleLike(this)">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 24" fill="none"
+                                stroke="currentColor" stroke-width="1.5" class="w-6 h-6 text-red-500">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M6.318 6.318a4.5 4.5 0 016.364 0l.318.318.318-.318a4.5 4.5 0 116.364 6.364l-6.682 6.682a.75.75 0 01-1.06 0L6.318 12.682a4.5 4.5 0 010-6.364z" />
+                            </svg>
+                        </button>
+                        <div class="flex justify-between items-center mt-4 mb-2">
+                            <h5 class="text-lg font-bold text-black">Orange Juice</h5>
+                        </div>
+                        <p class="text-sm text-gray-500">Crispy and juicy fried chicken, perfect for any meal!</p>
+                        <div class="flex items-center justify-between mt-3">
+                            <p class="text-2xl font-semibold text-orange-500"> $5.00 </p>
+                            <button
+                                class="bg-orange-500 text-white py-2 px-4 rounded-md hover:bg-orange-500 transition text-lg">Order</button>
                         </div>
                     </div>
                     <!-- Repeat for other menu items -->
@@ -500,8 +790,9 @@
     </section>
 
     <!-- Feedback Section -->
-    <section id="feedback" class="bg-cover py-10 text-black"
-        style="background-image: url(img/top-view-chicken-french-fries.jpg);">
+    <section id="feedback"
+        class="relative lg:mx-16 md:mx-16 mx-4 py-16 px-6 md:px-14 flex items-center justify-between bg-cover bg-center"
+        style="background-image: url(img/top-view-chicken-french-fries.jpg); border-radius: 32px;">
         <div class="container mx-auto">
             <!-- Section Title -->
             <div class="text-center space-y-3 mb-8">
@@ -552,7 +843,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-white text-black py-10">
+    <footer class="bg-white text-black py-10 mt-12">
         <div class="container mx-auto px-6">
             <div class="py-4">
                 <img src="img/zentucky-transparent-logo.png" alt="Zentucky Logo"
@@ -703,16 +994,29 @@
         tabButtons.forEach((button) => {
             button.addEventListener("click", () => {
                 // Reset active state
-                tabButtons.forEach((btn) => btn.classList.remove("active", "bg-white"));
+                tabButtons.forEach((btn) => btn.classList.remove("active", "bg-orange-500"));
                 tabPanes.forEach((pane) => pane.classList.add("hidden"));
 
                 // Activate selected tab
-                button.classList.add("active", "bg-white");
+                button.classList.add("active", "bg-orange-500");
                 const target = document.getElementById(button.getAttribute("data-target"));
                 target.classList.remove("hidden");
             });
         });
     });
+    // Like button 
+    function toggleLike(button) {
+        const svgIcon = button.querySelector("svg");
+        if (svgIcon.getAttribute("fill") === "none") {
+            svgIcon.setAttribute("fill", "red");
+            svgIcon.classList.remove("text-gray-400");
+            svgIcon.classList.add("text-red-500");
+        } else {
+            svgIcon.setAttribute("fill", "none");
+            svgIcon.classList.remove("text-red-500");
+            svgIcon.classList.add("text-gray-400");
+        }
+    }
 
 </script>
 <script src="https://cdn.tailwindcss.com"></script>
